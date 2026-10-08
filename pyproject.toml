@@ -13,3 +13,15 @@ dependencies = [
     "numpy>=2.5.3",
     "scipy>=1.18.1",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.10",
+]
+
+[tool.basedpyright]
+typeCheckingMode = "standard"
+reportUnusedExpression = false
+
+[tool.ruff.lint.per-file-ignores]
+"notebooks/*.py" = ["B018"]
