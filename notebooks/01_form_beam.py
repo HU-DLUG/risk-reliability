@@ -271,6 +271,7 @@ def _(mo):
 
     ```bash
     uv run marimo edit notebooks/01_form_beam.py
+    ```
 
     The Python environment and dependencies are managed by uv using
     pyproject.toml and uv.lock. Input values can be changed in the
